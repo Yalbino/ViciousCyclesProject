@@ -1,0 +1,139 @@
+*body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+
+a {
+    text-decoration: none;
+}
+
+    
+    
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: subgrid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(pexels-pixabay-260409.jpg);
+    background-position: bottom;
+    background-size: cover;
+}
+  
+.header-content {
+    margin-bottom: 150px;
+    text-align: center;
+}
+
+
+.header-content h1 {
+    margin-bottom: 30px;
+    margin-top:50px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background: rgba(187, 134, 0, 0.808);
+    border-radius: 30px;
+    color: rgb(61, 61, 61);
+    text-align: center;
+
+
+}
+
+ 
+
+nav {
+    position: absolute;
+    top:0;
+    left:0;
+    display: flex;
+    width:100%;
+    height: 100px; 
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+
+}
+nav ul{
+    list-style: none;
+    float: center;
+    margin: 0;
+    padding:0;
+    display: flex;
+}
+
+
+nav ul li a {
+    line-height: 80px;
+    color:whitesmoke;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+}
+
+nav ul li a:hover{
+    background: #363535;
+    border-radius: 6px;
+}
+
+footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+     background: linear-gradient(to right, rgb(92, 63, 0));
+    color: whitesmoke;
+   padding: 100px, 0 30px;
+   border-top-left-radius: 125px;
+   font-size: 13px;
+   line-height: 20px;
+
+}
+
+.footer-bottom {
+    background: black;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+
+}
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+
+} 
+
+.footer-bottom span{
+    text-transform:uppercase;
+    opacity: .4;
+
+}
+
+.row{
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+
+}
+
+col{
+    flex-basis: 25%;
+    padding:10px;
+}
+
+.email-id {
+    width: fit-content;
+    border-bottom: 1px solid rgb(116, 94, 0);
+}
